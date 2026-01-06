@@ -1,0 +1,65 @@
+/* Base dashboard layout */
+.dashboard {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  font-family: system-ui, sans-serif;
+}
+
+/* Textarea */
+.dashboard textarea {
+  width: 100%;
+  min-height: 140px;
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+/* Buttons */
+.dashboard button {
+  margin: 8px 8px 8px 0;
+  padding: 8px 14px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* Output box */
+.output {
+  margin-top: 20px;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #f5f7fa;
+}
+
+/* Anxiety support box */
+.anxiety-box {
+  margin-top: 12px;
+  padding: 14px;
+  background-color: #e8f0fe;
+  border-left: 4px solid #4a90e2;
+}
+
+/* ---------------- DYSLEXIA MODE ---------------- */
+.dyslexia-mode {
+  font-family: "Lexend", system-ui, sans-serif;
+  letter-spacing: 0.08em;
+  line-height: 1.8;
+}
+
+.dyslexia-mode p {
+  font-size: 18px;
+}
+
+/* ---------------- AUTISM MODE ---------------- */
+.autism-mode {
+  background-color: #ffffff;
+}
+
+.autism-mode p {
+  margin-bottom: 12px;
+}
+
+/* ADHD focus block */
+.output p {
+  margin-bottom: 16px;
+}
